@@ -1,0 +1,74 @@
+body{
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.top{
+  margin:1em 0;
+}
+
+.gestures{
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+  .gestures li{
+    position: absolute;
+    text-align: center;
+    background-color: #eee;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 100px;
+    border: 2px solid #eee;
+  }
+    .gestures li:hover{
+      border-color: #000;
+      cursor: pointer;
+    }
+  .gestures .rock{
+    background-color: #FFD5D5;
+    border-color: #FF8080;
+    top: 0;
+    left: 100px;
+  }
+  .gestures .paper{
+    background-color: #FFF6D5;
+    border-color: #FFDD55;
+    top: 0;
+    left: 300px; 
+  }
+  .gestures .scissor{
+    background-color: #F6D5FF;
+    border-color: #E580FF;
+    top: 200px;
+    left: 0; 
+  }
+  .gestures .lizard{
+    background-color: #D7F4D7;
+    border-color: #87DE87;
+    top: 200px;
+    left: 400px; 
+  }
+  .gestures .spoc{
+    background-color: #D5E5FF;
+    border-color: #80B3FF;
+    top: 370px;
+    left: 200px; 
+    padding: 20px 40px;
+
+  }
+  .gestures .bot{
+    top: 150px;
+    left: 200px;
+    display: none;
+    padding: 30px;
+  }
+
+.result{
+  display: block;
+  text-align: center;
+}
+  .result button{
+    margin-left: 10px;
+  }
